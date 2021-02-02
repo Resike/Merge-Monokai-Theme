@@ -1,0 +1,39 @@
+{
+    // Based on Mariana.sublime-color-scheme
+    "name": "Sublime Merge Monokai Widgets",
+    "globals":
+    {
+        "foreground": "hsl(219, 28%, 88%)",
+        "background": "hsl(210, 15%, 24%)",
+        "caret": "hsl(180, 36%, 54%)",
+        "line_highlight": "hsl(209, 13%, 35%)",
+        "selection": "hsl(209, 13%, 35%)",
+        "selection_border": "hsl(210, 13%, 45%)",
+        "inactive_selection": "hsl(209, 13%, 35%)"
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "hsl(221, 12%, 69%)",
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword, storage",
+            "foreground": "hsl(210, 50%, 60%)"
+        },
+        {
+            "scope": "constant",
+            "foreground": "hsl(32, 93%, 66%)"
+        },
+        {
+            "scope": "string",
+            "foreground": "hsl(114, 31%, 68%)"
+        },
+        {
+            "scope": "constant.character.escape",
+            "foreground": "hsl(300, 30%, 68%)"
+        }
+    ]
+}
