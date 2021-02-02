@@ -1,4 +1,4 @@
-Monokai Theme for Sublime Merge
+### Monokai Theme for Sublime Merge
 
 ![Monokai](https://i.imgur.com/DE52PtC.png)
 
