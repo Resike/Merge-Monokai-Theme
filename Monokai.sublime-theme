@@ -243,6 +243,11 @@
 		// Switch repository window
 		"switch_repo_bg": "var(dark_gray)",
 
+		// Tool tips
+		"tool_tip_bg": "#404040",
+		"tool_tip_fg": "#dddddd",
+		"tool_tip_border": "#777777",
+
 		// Hints
 		"failed_label_fg": "var(dark_gray)",
 
@@ -275,6 +280,13 @@
 		{
 			"class": "tab_close_button",
 			"layer0.texture": "Theme - Merge/tab_close.png",
+			"layer0.tint": "white",
+		},
+		{
+			"class": "tab_close_button",
+			"attributes": ["!hover"],
+			"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+			"layer0.texture": "Theme - Merge/tab_dirty.png",
 			"layer0.tint": "white",
 		},
 		{
@@ -377,18 +389,18 @@
 			"layer0.texture": "Theme - Merge/dark_scroll_bar.png",
 		},
 		{
+			"class": "puck_control",
+			"parents": [{"class": "overlay_control"}],
+			"layer0.texture": "Theme - Merge/dark_scroll_puck.png",
+		},
+		{
 			"class": "scroll_track_control",
 			"parents": [{"class": "preferences_page"}],
 			"layer0.texture": "Theme - Merge/dark_scroll_bar.png",
 		},
 		{
 			"class": "puck_control",
-			"parents": [{"class": "overlay_control"}],
-			"layer0.texture": "Theme - Merge/dark_scroll_puck.png",
-		},
-		{
-			"class": "puck_control",
-			"parents": [{"class": "overlay_control"}],
+			"parents": [{"class": "preferences_page"}],
 			"layer0.texture": "Theme - Merge/dark_scroll_puck.png",
 		},
 		{

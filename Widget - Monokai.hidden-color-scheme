@@ -4,7 +4,7 @@
     "globals":
     {
         "foreground": "hsl(219, 28%, 88%)",
-        "background": "hsl(210, 15%, 24%)",
+        "background": "hsl(210, 15%, 22%)",
         "caret": "hsl(180, 36%, 54%)",
         "line_highlight": "hsl(209, 13%, 35%)",
         "selection": "hsl(209, 13%, 35%)",
